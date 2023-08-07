@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Positon
+	</title>
+	<style type="text/css">
+		.a{
+			height:400px;
+			width:300px;
+			background-color:red;
+			float: left;
+			position:static;
+		}
+		.b{
+			height:400px;
+			width:300px;
+			background-color:blue;
+			float: left;
+			margin-left:10px;
+			position:relative;
+			top:50px;
+/*			the relative position is changes the position of the div w.r.t to its starting position*/
+		}
+		.c{
+			height:400px;
+			width:300px;
+			background-color:rebeccapurple;
+			float: left;
+			margin-left:10px;
+/*			position:absolute;*/
+/*			here the absolute is used to change the position ..by default changes w.r.t to the body because its the parent of the div but when there is a parent div is applied then its moves or changes its position w.r.t to the div we created*/
+
+		}
+		.d{
+			height:400px;
+			width:300px;
+			background-color:pink;
+			float: left;
+			margin-left:10px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="a"><h1>Static</h1></div>
+	<div class="b"><h1>Relative</h1></div>
+	<div class="c1">
+	<div class="c"><h1> Absolute</h1></div>
+	</div>
+	<div class="d"><h1>Fixed</h1></div>
+
+</body>
+</html>

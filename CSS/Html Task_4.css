@@ -1,0 +1,192 @@
+.header{
+	height:600px;
+	width:100%;
+	background-image:url("https://img.freepik.com/premium-photo/suitcase-with-different-accessories-vacation-with-boarding-pass-airplane-blue-studio-background_241146-1846.jpg?size=626&ext=jpg&ga=GA1.2.857388202.1688204880&semt=sph");
+	background-size:cover;
+	text-align:center;
+
+}
+.Second_div{
+	text-align:center;
+	height:500px;
+	width:100%;
+	padding-top:30px;
+	font-family:unset;
+	font-style:italic;
+	background-color:whitesmoke;
+}
+.button{
+	height:30px;
+	width:100px;
+	background-color:honeydew;
+	border:2px solid black;
+	font-size:15px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-style:!important;
+
+}
+.button:hover {
+      background-color:#ffbf00;
+      transition: 0.7s;
+      height:40px;
+      width:120px;
+  }
+ .button:active{
+ 	color:greenyellow;
+ }
+.button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}
+#card_1{
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOk3qdpi3HUwcnLq_yZUb0A_bnWm57SNU1cA&usqp=CAU");
+	height:150px;
+	width:100%;
+	background-size:cover;
+}
+#card_2{
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN026oZbAORhMHV6AzNmld1xrxDVp-j2GUQA&usqp=CAU");
+	height:150px;
+	width:100%;
+	background-size:cover;
+}
+#card_3{
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWu5l4NvzFmqgFRpvJSAYmb9QBse6BssN-xg&usqp=CAU");
+	height:150px;
+	width:100%;
+	background-size:cover;
+}
+.button_1{
+	height:30px;
+	width:100px;
+	background-color:honeydew;
+	border:2px solid black;
+	font-size:15px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size:20px;
+
+}
+.button_1:hover {
+      background-color:#4a81d9;
+      transition: 0.7s;
+      height:40px;
+      width:120px;
+  }
+ .button_1:active{
+ 	color:greenyellow;
+ }
+.button_1:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+ }
+ .button_2{
+	height:30px;
+	width:100px;
+	background-color:honeydew;
+	border:2px solid black;
+	font-size:15px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size:20px;
+
+}
+.button_2:hover {
+      background-color:#a0ff91;
+      transition: 0.7s;
+      height:40px;
+      width:120px;
+  }
+ .button_2:active{
+ 	color:greenyellow;
+ }
+.button_2:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+ }
+ .button_3{
+	height:30px;
+	width:100px;
+	background-color:honeydew;
+	border:2px solid black;
+	font-size:15px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size:20px;
+
+}
+.button_3:hover {
+      background-color:#4c7bfc;
+      transition: 0.7s;
+      height:40px;
+      width:120px;
+  }
+ .button_3:active{
+ 	color:greenyellow;
+ }
+.button_3:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+ }
+ .div_3{
+ 	height:500px;
+ 	width:100%;
+ }
+ .para{
+ 	font-size:20px;
+ 	font-style: italic;
+ }
+ .bg_para{
+ 	background-image:url("https://img.freepik.com/free-photo/beautiful-scenery-forest-snowy-alps-winter_181624-29223.jpg?size=626&ext=jpg&ga=GA1.1.857388202.1688204880&semt=sph");
+ 	background-size:cover;
+ }
+ .sec_img{
+ 	background-image:url("https://img.freepik.com/free-photo/water-famous-architecture-finance-shanghai-tower_1417-1120.jpg?size=626&ext=jpg&ga=GA1.2.857388202.1688204880&semt=sph");
+ 	background-size:cover;
+ 	background-repeat:no-repeat;
+ }
+  .button_4{
+	height:30px;
+	width:120px;
+	background-color:honeydew;
+	border:2px solid black;
+	font-size:15px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size:20px;
+
+}
+.button_4:hover {
+      background-color:#72946f;
+      transition: 0.7s;
+      height:40px;
+      width:120px;
+  }
+ .button_4:active{
+ 	color:greenyellow;
+ }
+.button_4:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+ }

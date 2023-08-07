@@ -1,0 +1,48 @@
+.header{
+	height:600px;
+	width:100%;
+	background-image:url("https://img.freepik.com/premium-photo/suitcase-with-different-accessories-vacation-with-boarding-pass-airplane-blue-studio-background_241146-1846.jpg?size=626&ext=jpg&ga=GA1.2.857388202.1688204880&semt=sph");
+	background-size:cover;
+	text-align:center;
+
+}
+.Second_div{
+	text-align:center;
+	height:400px;
+	width:100%;
+/*	background-color:#f1ddcf;*/
+	padding-top:30px;
+	font-family:unset;
+	font-style:italic;
+}
+/**{
+	margin:0 auto;
+}*/
+.button{
+	height:30px;
+	width:100px;
+	background-color:honeydew;
+	border:2px solid black;
+	font-size:15px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	font-size:20px;
+
+}
+.button:hover {
+      background-color:#ffbf00;
+      transition: 0.7s;
+      height:40px;
+      width:120px;
+  }
+ .button:active{
+ 	color:greenyellow;
+ }
+.button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}

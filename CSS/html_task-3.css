@@ -1,0 +1,19 @@
+.a{
+	padding:10px;
+
+}
+.head{
+	border: 1px solid grey;
+	padding: 20px;
+}
+a:link{
+	color: red;
+}
+.form{
+	text-align-last: right;
+}
+/*.top_head{
+	background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Effective_Programming_for_America_logo.svg/1200px-Effective_Programming_for_America_logo.svg.png");
+	height:300px;
+	width:100%;
+}*/

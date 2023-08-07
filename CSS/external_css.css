@@ -1,0 +1,54 @@
+/*class and Id selector*/
+.external,#p1{
+	border: 1px solid black;
+	background-image:url("https://img.freepik.com/free-photo/purple-blue-wallpaper-with-colorful-swirl_1340-27545.jpg?size=626&ext=jpg&ga=GA1.2.857388202.1688204880&semt=sph");
+	height:100vh;
+	width:100vh;
+	color: white;
+	font-size: 50px;
+	text-align:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*element selector*/
+p{
+	font-size:50px;
+	color:red;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: darkred;
+}
+/*universal Selector*/
+*{
+
+}
+
+
+/*Attribute Selectors*/
+input[type="name"]{
+	color: red;
+}
+input[type="number"]{
+	color:blue;
+}
+/*a[href]{
+	background-color:darkseagreen;
+}*/
+
+
+
+/*Pesudo Selectors*/
+a:hover{
+	color:brown;
+	font-size: 20px;
+}
+/*a:visited{
+	color: darkorange;
+}
+*/
+a:link{
+	color: blue;
+}

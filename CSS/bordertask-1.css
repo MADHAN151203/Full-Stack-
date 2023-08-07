@@ -1,0 +1,5 @@
+span{
+	box-shadow: 0 0 0 5px red;
+  	outline: dashed 5px skyblue;
+  	height: 100px;
+}

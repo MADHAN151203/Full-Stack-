@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BOX MODEL</title>
+	<style type="text/css">
+		.a{
+			height:300px;
+			width: 200px;
+			background-color:yellow;
+			float:left;
+			box-shadow:3px 3px 5px red;
+		}
+		.b{
+			height:300px;
+			width: 200px;
+			background-color:pink;
+			float:left;
+			margin-left:20px;
+			box-shadow:3px 3px 5px red;
+			outline:3px solid black; 
+/*We use outline instead of border to avoid the decrease total div length*/
+		}
+		ul{
+			list-style:upper-roman;
+		}
+		ol{
+			list-style:upper-latin;
+			list-style-image:url("");
+		}
+	</style>
+</head>
+<body>
+<!-- 	<div class="a"></div>
+	<div class="b"></div> -->
+	<ul>
+		<li>Madhan</li>
+		<li>Kandregula</li>
+	</ul>
+	<ol>
+		<li>krishna</li>
+		<li>Krishika</li>
+	</ol>
+</body>
+</html>
