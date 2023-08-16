@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript</title>
+	<!-- <script type="text/javascript" src="external.js"></script> -->
+	<!-- The output of the js will be display on the top...so we can use the script tag after the body tag -->
+</head>
+<body>
+	<h1>JAVA Script</h1>
+	<script>
+		var a=10;
+		var b=20;
+		var c=30;
+		var a1='madhan';
+		 a1 +='krish';
+		// alert(a);
+		// window.alert(a);
+		// document.write(b);
+		// console.log(c);
+
+
+		document.write("Hello world <br>");
+		document.write("This is the value <br>");
+		document.write("this the value",a +'<br>');
+
+
+		document.write(a1 +'<br>');
+		document.write(a1.length +'<br>');
+
+
+		// task
+		var name='madhan';
+		name +=' krish';
+		name +=",madhu";
+		document.write(name +'<br>')
+
+
+		var m=10;
+		//typeof(variable)
+		document.write(typeof(m)+'<br>');
+		var n=20.20;
+		//if it is a float value also wee will get number
+		document.write(typeof(n) +'<br>' +'<br>');
+
+
+
+		var e;
+		document.write(e +'<br>' +'<br>');
+
+		var e;
+		var e='what';
+		document.write(e +'<br>' +'<br>');
+
+		var arr=['madhan',4,true];
+		//object is a collection of various data types
+		//array in js is object
+		document.write(arr +'<br>');
+
+		var arr=['Madhan','krish','madhu','Krishna'];
+		// document.write(arr[0] +'<br>');
+		document.write(arr[1] +'<br>');
+		document.write(arr[2] +'<br>');
+
+
+
+		var obj=[{
+			'name':'madhan',
+			'rollno':1233445675432,
+			'college':'AEC',
+			'Branch':'ECE',
+			'cgpa':'8.9'
+		},
+		{
+			'name':'Krishna',
+			'rollno':12335675432,
+			'college':'AECT',
+			'Branch':'ECE',
+			'cgpa':'8.9'
+		},
+		{
+			'name':'kittu',
+			'rollno':12335675432,
+			'college':'AECT',
+			'Branch':'ECE',
+			'cgpa':'8.9'
+		},
+		{
+			'name':'bittu',
+			'rollno':12335675432,
+			'college':'AECT',
+			'Branch':'ECE'
+		}]
+		// console.log(obj[0]);
+		// console.log(obj[1]);
+		// for(i=0;i<obj.length;i++)
+		// {
+		// 	document.write(obj[i].name+'<br>')
+		// 	document.write(obj[i].rollno+'<br>')
+		// 	document.write(obj[i].college+'<br>')
+		// 	document.write(obj[i].Branch+'<br>')
+
+		// }
+		// // type 2 of for loop
+		// for (var i = 0; i < obj.length; i++) {
+		// 	console.log(obj[i])
+		// }
+
+
+		for (var i=0;i<obj.length;i++){
+      		for (var key in obj[i]){
+        	document.write(obj[i][key]+' ')
+        	
+        }
+        document.write("<br>")
+    }
+
+
+
+
+
+	</script>
+
+</body>
+<!-- <script type="text/javascript" src="external.js"></script> -->
+</html>
